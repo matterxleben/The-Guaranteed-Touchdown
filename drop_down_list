@@ -40,10 +40,11 @@
 </style>
 </head>
 <body>
-
+/* edit titles if appropriate  */
 <h2>Select Teammate</h2>
 <p>Move the mouse over the button to open the dropdown menu.</p>
 
+/* edit titles if appropriate  */
 <div class="dropdown">
   <button class="dropbtn">Dropdown</button>
   <div class="dropdown-content">
