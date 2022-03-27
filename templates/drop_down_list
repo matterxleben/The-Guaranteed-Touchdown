@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  max-height: 200px; /* allows for scrolling  */
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+<body>
+/* edit titles if appropriate  */
+<h2>Select Teammate</h2>
+<p>Move the mouse over the button to open the dropdown menu.</p>
+
+/* edit titles if appropriate ----> have one to b "Home Team" and "Away Team" */
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Arizona Cardinals</a>
+    <a href="#">Atlanta Falcons</a>
+    <a href="#">Baltimore Ravens</a>
+    <a href="#">Buffalo Bills</a>
+    <a href="#">Carolina Panthers</a>
+    <a href="#">Chicago Bears</a>
+    <a href="#">Cincinnati Bengals</a>
+    <a href="#">Cleveland Browns</a>
+    <a href="#">Dallas Cowboys</a>
+    <a href="#">Denver Broncos'</a>
+    <a href="#">Detroit Lions</a>
+    <a href="#">Green Bay Packers</a>
+    <a href="#">Houston Texans</a>
+    <a href="#">Indianapolis Colts</a>
+    <a href="#">Jacksonville Jaguars</a>
+    <a href="#">Kansas City Chiefs</a>
+    <a href="#">Los Angeles Chargers</a>
+    <a href="#">St. Louis Rams</a>
+    <a href="#">Las Vegas Raiders</a>
+    <a href="#">Miami Dolphins</a>
+    <a href="#">Minnesota Vikings</a>
+    <a href="#">New England Patriots</a>
+    <a href="#">New Orleans Saints</a>
+    <a href="#">New York Giants</a>
+    <a href="#">New York Jets</a>
+    <a href="#">Philadelphia Eagles</a>
+    <a href="#">Pittsburgh Steelers</a>
+    <a href="#">Seattle Seahawks</a>
+    <a href="#">San Francisco 49ers</a>
+    <a href="#">Tampa Bay Buccaneers</a>
+    <a href="#">Tennessee Titans</a>
+    <a href="#">Washington Football Team</a>
+  </div>
+</div>
+
+</body>
+</html>
